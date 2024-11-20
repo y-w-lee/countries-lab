@@ -1,0 +1,55 @@
+.country-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .country-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .country-flag {
+    width: 70px;
+    height: auto;
+    margin-right: 16px;
+  }
+  
+  .country-header h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .country-details {
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  
+  .country-details p {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #555;
+  }
+  
+  .country-details p strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .country-card a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .country-card a:hover {
+    text-decoration: underline;
+  }
+  
